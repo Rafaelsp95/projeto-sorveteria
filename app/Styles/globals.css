@@ -1,0 +1,36 @@
+/* cores utilizadas neste projeto 
+  #FFFFFF
+  #D9DDE1
+  #474747
+  #000000
+  #F9DB79
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {  /* efeito sombreado aplicado a todos títulos h1 da página */
+  color: #FFF;
+  text-shadow: 3px 5px 2px #47474780;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4em;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.3em;
+  }
+}

@@ -1,0 +1,121 @@
+.homeBanner {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9DB79;
+} 
+
+.homeBanner h1 {
+    position: relative; /* Elemento estrutural, position: relative */
+    bottom: 4%;
+    left: 0%;
+    z-index: 2; /* fica na frente da imagem */
+}
+
+.homeBanner .bannerImage {  
+    position: absolute; /* Elemento decorativo, position: absolute*/
+    left: 37%;
+    bottom: 25%;
+    z-index: 1;  /* fica atrás do texto */
+    width: 400px;
+    height: auto;
+    transform: rotate(20deg); /* gira a imagem */
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.conteudoHome .cardsHome {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardItem {
+    width: 50%;
+    height: 500px;
+}
+
+.itemTexto {
+    display: flex;
+    height: 70vh;  /* adicionando um tamanho de 70vh para que o conteúdo fique centralizado verticalmente */
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.itemTexto p {
+    max-width: 500px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.itemTexto h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.itemTexto span {
+    font-style: italic;
+}
+
+.cardItem img {
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .cardsHome{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardItem{
+        width: 100%;
+        height: 400px;
+    }
+
+    .cardItem img { /* ajustando as imagens sem distorcer */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .itemTexto {
+        height: 50vh;
+        padding: 5%;
+        border-top: solid 1px rgba(128, 128, 128, 0.378);
+    }
+
+    .itemTexto h2{
+        font-size: 1.3em;
+    }
+
+    /* ajustando a ordem de cada card */
+    .cardImagem1 {
+        order: 1;
+    }
+
+    .cardTexto1 {
+        order: 2;
+    }
+
+    .cardImagem2 {
+        order: 3
+    }
+
+    .cardTexto2{
+        order: 4
+    }
+
+    .cardImagem3 {
+        order: 5
+    }
+
+    .cardTexto3{
+        order: 6
+    }
+}

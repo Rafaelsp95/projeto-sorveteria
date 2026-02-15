@@ -1,0 +1,84 @@
+.rodape {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0 2% 0;
+}
+
+.conteudoRodape {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2% 2%;
+}
+
+.conteudoRodape img {
+    width: 100px;
+    height: 100px;
+}
+
+.itensRodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 2% 0;
+}
+
+.itensRodape .cardItem {
+    border-left: 2px solid #FFF;
+    padding-left: 10px;
+}
+
+.itensRodape .cardItem h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.itensRodape .cardItem p {
+    line-height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        margin: 0 auto;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .conteudoRodape {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .itensRodape {
+        flex-direction: column;
+    }
+
+    .cardItem {
+        width: 300px;
+        text-align: center;
+    }
+
+    .cardItem p {
+        font-size: 0.8rem;
+    }
+
+    .cardItem h3{
+        font-size: 0.7rem;
+    }
+
+    .itensRodape .cardItem {
+        border-left: none;
+    }
+}

@@ -1,0 +1,1 @@
+Esses componentes serão utilizados em todas as páginas do projeto!
