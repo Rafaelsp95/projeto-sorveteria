@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+╔════════════════════════════════════════════════════════════════╗
+║         🍦 PLATAFORMA WEB - SORVETERIA ARTESANAL 🍦           ║
+╚════════════════════════════════════════════════════════════════╝
 
-## Getting Started
+Um projeto Next.js profissional que demonstra maestria em:
 
-First, run the development server:
+🎯 FRONTEND MODERNO
+   • Next.js 13+ com React componentes reutilizáveis
+   • TypeScript para segurança de tipo
+   • CSS Modules para arquitetura escalável
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+⚡ PERFORMANCE & OTIMIZAÇÃO
+   • Image Component com lazy loading automático
+   • SPA Navigation sem reload
+   • Bundle size otimizado
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 DESIGN SYSTEM COERENTE
+   • Paleta de cores documentada e aplicada
+   • Tipografia consistente (Poppins)
+   • Micro-interações profissionais (hover effects, transitions)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📱 RESPONSIVE DESIGN
+   • 3 breakpoints estratégicos
+   �� Mobile-first approach
+   • Sem perda de funcionalidade em nenhum device
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🏆 PADRÕES & BOAS PRÁTICAS
+   • HTML Semântico + Acessibilidade
+   • SEO-ready com metadados
+   • Componentes modulares (Topo, Rodape, Pages)
+   • CSS Modules evitam conflitos globais
 
-## Learn More
+💼 FUNCIONALIDADES DE NEGÓCIO
+   • 4 páginas estruturadas (Home, Sabores, Sobre, Contato)
+   • Catálogo com 6 sabores detalhados
+   • Informações de eventos e serviços
+   • Multi-canal de contato
 
-To learn more about Next.js, take a look at the following resources:
+📊 TÉCNICAS AVANÇADAS
+   • Position absolute/relative layering
+   • Z-index estratégico
+   • Transform rotate + scale em hover
+   • Object-fit para imagens responsivas
+   • Order CSS para reordenação mobile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este projeto apresenta habilidade técnica,
+compreensão de UX, acessibilidade e padrões de design
+moderno que grandes empresas buscam.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Stack: Next.js | React | TypeScript | CSS Modules | Next.js Image API
+Ambiente: Production-ready | Mobile-optimized | SEO-friendly
