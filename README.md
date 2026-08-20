@@ -1,68 +1,53 @@
+PLATAFORMA WEB - SORVETERIA ARTESANAL
 
- PLATAFORMA WEB - SORVETERIA ARTESANAL 
+Projeto desenvolvido em Next.js com foco em performance, acessibilidade e boas práticas de front-end moderno. A aplicação simula a presença digital de uma sorveteria artesanal, unindo identidade visual consistente, responsividade total e uma arquitetura de componentes reutilizáveis.
 
+Sobre o Projeto
 
-Um projeto Next.js profissional que demonstra maestria em:
+Uma plataforma web profissional que demonstra domínio de conceitos essenciais do desenvolvimento front-end atual, combinando design coerente, performance otimizada e código organizado em padrões escaláveis.
 
-FRONTEND MODERNO
+FRONTEND MODERNO:
 
-   • Next.js 13+ com React componentes reutilizáveis
-   • TypeScript para segurança de tipo
-   • CSS Modules para arquitetura escalável
+᛫ Next.js 13+ com componentes React reutilizáveis
 
+᛫ TypeScript para segurança de tipo
 
-PERFORMANCE & OTIMIZAÇÃO
+᛫ CSS Modules para arquitetura escalável e sem conflitos de estilo
+____________________________________________________________________________________
 
-   • Image Component com lazy loading automático
-   • SPA Navigation sem reload
-   • Bundle size otimizado
+DESYGN SYSTEM COERENTE:
 
+᛫ Paleta de cores documentada e aplicada de forma consistente
 
-DESIGN SYSTEM COERENTE
+᛫ Tipografia padronizada (Poppins)
 
-   • Paleta de cores documentada e aplicada
-   • Tipografia consistente (Poppins)
-   • Micro-interações profissionais (hover effects, transitions)
+᛫ Micro-interações profissionais (hover effects, transitions)
+____________________________________________________________________________________
 
+RESPONSIVIDADE:
 
-RESPONSIVE DESIGN
+᛫ 3 breakpoints estratégicos
 
-   • 3 breakpoints estratégicos
-   • Mobile-first approach
-   • Sem perda de funcionalidade em nenhum device
+᛫ Abordagem mobile-first
 
+᛫ Manutençao total da funcionalidade em qualquer dispositivo
+____________________________________________________________________________________
 
+PADRÕES E BOAS PRÁTICAS:
 
-PADRÕES & BOAS PRÁTICAS
+᛫ HTML semântico e foco em acessibilidade
 
-   • HTML Semântico + Acessibilidade
-   • SEO-ready com metadados
-   • Componentes modulares (Topo, Rodape, Pages)
-   • CSS Modules evitam conflitos globais
+᛫ Estrutura SEO-ready com metadados
 
+᛫ Componentes modulares (Topo, Rodape, Pages)
 
+᛫ CSS modules para evitar conflitos de estilos globais
+____________________________________________________________________________________
 
-FUNCIONALIDADES DE NEGÓCIO
+FUNCIONALIDADES DE NEGÓCIO:
 
-   • 4 páginas estruturadas (Home, Sabores, Sobre, Contato)
-   • Catálogo com 6 sabores detalhados
-   • Informações de eventos e serviços
-   • Multi-canal de contato
+᛫ 4 páginas estruturadas: Home, Sabores, Sobre e Contato
 
+᛫ Catálogo com 6 sabores detalhados
 
-
-TÉCNICAS AVANÇADAS
-   • Position absolute/relative layering
-   • Z-index estratégico
-   • Transform rotate + scale em hover
-   • Object-fit para imagens responsivas
-   • Order CSS para reordenação mobile
-
-
-
-Este projeto apresenta habilidade técnica,
-compreensão de UX, acessibilidade e padrões de design
-moderno que grandes empresas buscam.
-
-HARD SKILLS:
-Next.js | React | TypeScript | CSS Modules | Mobile-optimized
+᛫ Informações sobre eventos e serviços
