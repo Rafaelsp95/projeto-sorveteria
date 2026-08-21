@@ -1,4 +1,4 @@
-PLATAFORMA WEB - SORVETERIA ARTESANAL
+## PLATAFORMA WEB - SORVETERIA ARTESANAL
 
 Projeto desenvolvido em Next.js com foco em performance, acessibilidade e boas práticas de front-end moderno. A aplicação simula a presença digital de uma sorveteria artesanal, unindo identidade visual consistente, responsividade total e uma arquitetura de componentes reutilizáveis.
 
